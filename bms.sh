@@ -93,8 +93,6 @@ function MainFunc() {
     else
         echo "not enough balance. minimum required: \$IRON 0.00000003, but you have only: \$IRON $(GetBalanceFunc)."
     fi
-    # request funds
-    echo | ${BIN} faucet
 }
 
 MainFunc
